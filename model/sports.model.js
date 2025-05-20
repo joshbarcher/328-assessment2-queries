@@ -14,6 +14,6 @@ const schema = sequelize.define('sport', {
     olympicSport: DataTypes.BOOLEAN
 });
 
-schema.sync({ force: true });
+await schema.sync({ force: true });
 
 export default schema;
