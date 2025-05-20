@@ -1,4 +1,4 @@
-// configure, then import db connection
+// import schema
 
 // seed the database
 
