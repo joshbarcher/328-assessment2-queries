@@ -8,6 +8,6 @@
 
 // --- SELECT * FROM sports WHERE olympicSport = TRUE;
 
-// --- SELECT * FROM sports ORDER BY popularityRank ASC LIMIT 3;
+// --- SELECT * FROM sports ORDER BY popularityRank ASC;
 
-// --- SELECT name, popularityRank FROM sports WHERE teamBased = FALSE ORDER BY popularityRank ASC
+// --- SELECT name, popularityRank, teamBased FROM sports WHERE teamBased = FALSE ORDER BY popularityRank DESC
